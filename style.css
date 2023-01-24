@@ -8,13 +8,30 @@
 
 html {
     font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+
 }
 
 /*Hemos probado con etiqueta, sin etiqueta, añadiendo width y un valor y sin él, y no funciona */
 
 .header {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-around;
     background-color: black;
-    
+    height:25px; 
+}
+.logo {
+    width: 30%;
+    margin:0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.img-logo {
+    max-width: 10%;
+}
+.blue {
+    height: 50vh;
+    background-color: #529CF1;
 }
