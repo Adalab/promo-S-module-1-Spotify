@@ -15,23 +15,41 @@ html {
 /*Hemos probado con etiqueta, sin etiqueta, añadiendo width y un valor y sin él, y no funciona */
 
 .header {
+    width: 100vw;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: black;
     height:25px; 
 }
 .logo {
-    width: 30%;
-    margin:0 auto;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+   
+   
 }
 .img-logo {
     max-width: 10%;
+    margin: 0.5rem 0 0 0;
+
+   
 }
 .blue {
     height: 50vh;
     background-color: #529CF1;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-evenly;
+}
+.menu-logo {
+    width: 2rem;
+    height: 2rem;
+}
+
+.hamburguesa {
+    width: 100%;
 }
