@@ -16,28 +16,32 @@ html {
 
 .header {
     width: 100vw;
+    height: 5vh;
+    top: 0px;
+    position: sticky;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     background-color: black;
-    height:25px; 
 }
 .logo {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
    
-   
 }
 .img-logo {
-    max-width: 10%;
+    padding: 5px;
+    max-width: 23%;
     margin: 0.5rem 0 0 0;
 
-   
 }
 .blue {
-    height: 50vh;
+    height: 30vh;
+    width: 100%;
     background-color: #529CF1;
+    color: white;
+    padding: 50px;;
 }
 
 .menu {
@@ -46,10 +50,65 @@ html {
     justify-content: space-evenly;
 }
 .menu-logo {
-    width: 2rem;
-    height: 2rem;
+    width: 4rem;
+   padding: 5px;
+   padding-right: 10px;
 }
 
 .hamburguesa {
     width: 100%;
+   
 }
+
+.main {
+height: 80vh;
+
+}
+
+.premium {
+    padding-bottom: 50px;
+    padding: 20px;
+}
+
+footer {
+    height: 15vh;
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ 
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: ;
+    padding: 20px;
+}
+
+.p-footer {
+    padding: 10px;;
+}
+
+.ul-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    
+}
+
+.div-footer {
+    display: flex;
+   justify-content: space-around;
+    padding-right: 40px;
+    margin: ;
+   
+}
+
+.lista-footer {
+   
+}
+
+
+
